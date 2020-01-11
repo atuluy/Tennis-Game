@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(8, 158, 8);
+}
+
+canvas {
+  margin-top: 50px;
+}
+
+.scoreContainer {
+  background-color: black;
+  color: green;
+  font-family: "Press Start 2P", cursive;
+  height: 140px;
+  width: 300px;
+  border-radius: 2%;
+}
+
+.resultContainer {
+  color: green;
+  font-family: "Press Start 2P", cursive;
+  position: absolute;
+  top: 200px;
+  visibility: hidden;
+}
+
+.test {
+  visibility: visible;
+}
